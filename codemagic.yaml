@@ -41,9 +41,10 @@ workflows:
         script: |
           echo "Compresing..."
           mkdir uploadfile
-          mv platforms uploadfile
-          mv wolf.keystore uploadfile
-          zip ready.zip uploadfile
+          cp -r platforms uploadfile
+          cp -r wolf.keystore uploadfile
+          zip -r ready.zip uploadfile
+          echo "get ready for upload"
       - name: Upload APK
         script: |
           echo "Deploying app to Codemagic..."
