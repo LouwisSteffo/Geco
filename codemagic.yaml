@@ -20,7 +20,7 @@ workflows:
           cordova platform add android
       - name: Build APK
         script: |
-          keytool -genkeypair -v -keystore wolf.keystore -storepass @loopback211 -keyalg RSA -keysize 2048 -validity 10000 -alias lgarin211 -storetype PKCS12 -dname "CN=agus, OU=tinus, O=tobing, L=id, ST=id, C=id"
+          keytool -genkeypair -v -keystore wolf.keystore -storepass @loopback211 -keyalg RSA -keysize 2048 -validity 10000 -alias lgarin211 -storetype PKCS12 -dname "CN=Agustinus, OU=tinus, O=tobing, L=bogor, ST=java, C=id"
           cordova build android --release -- --keystore=./wolf.keystore --storePassword=@loopback211 --alias=lgarin211 --password=@loopback211 --packageType=bundle
       #   cordova build android
       # - name: Sign APK
