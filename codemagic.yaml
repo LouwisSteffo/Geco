@@ -41,8 +41,8 @@ workflows:
         script: |
           echo "Compresing..."
           mkdir uploadfile
-          cp -r platforms uploadfile
-          cp -r wolf.keystore uploadfile
+          mv platforms uploadfile
+          mv wolf.keystore uploadfile
           zip ready.zip uploadfile
       - name: Upload APK
         script: |
