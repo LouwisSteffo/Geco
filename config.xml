@@ -1,15 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.lgarin211.bcdmobile" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>BCD MOBILE</name>
+<widget id="com.louwissteffo.geco" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Gecko</name>
     <description>APLIKASI UNTUK TUGAS DATABASE</description>
     <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
         Apache Cordova Team
     </author>
     <content src="index.html" />
-    <allow-navigation href="https://afergus.live/*" />
-    <allow-navigation href="https://*.lahoras.my.id/*" />
-    <allow-navigation href="https://*.lahoras.my.id/*" />
-    <allow-navigation href="https://demortb.lahoras.my.id/*" />
+    <allow-navigation href="http://10.68.104.251:8800/*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <icon src="res/icon.png" />
